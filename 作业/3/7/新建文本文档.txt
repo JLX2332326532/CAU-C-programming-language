@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a;
+	char x;
+	scanf("%d",a);
+	if (a>=90) x='A';
+	if (a<60)
+		x='C';
+	else
+		x='B';
+	printf("%d",a);
+	printf(" belongs to ");
+	printf("%c",x);
+	return 0;
+}
